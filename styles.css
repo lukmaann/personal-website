@@ -1,3 +1,30 @@
 .logo{
-    width: 4vw;
+    width: 8vw;
+}
+
+nav li{
+    font-size: 10px ;
+    font-weight: bolder;
+}
+
+nav li:hover{
+    text-decoration: underline;
+}
+
+.top{
+    display: flex;
+}
+
+.home-img{
+    background-color: aqua;
+    flex: 1;
+    height: 90vh;
+    width: 50vw;
+}
+.home-title{
+    background-color: bisque;
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
 }
