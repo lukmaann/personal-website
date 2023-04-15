@@ -114,24 +114,54 @@ nav li:hover{
 @media only screen and (max-width: 600px) {
     .top{
         flex-wrap: wrap;
+        width: 90vw;
+        justify-content: center;
+        margin: auto;
     }
     .top-child{
-        height: 60vh;
-        width: 100vh;
+        /* background-color: aqua; */
+        height: 40vh;
+        width: 90vw;
         margin: 10px;
+
+    }
+    .top-child h6{
+        left: 10px;
+        top: 100px;
     }
     .top-child h1{
-        font-size: 50px;
+        left: 34px;
+        font-size: 32px;
+        top: 110px;
     }
-    .btn-portfolio{
-        top: 470px;
+
+    .top-child p{
+        top: 250px;
+        left: 31px;
+        font-size: 10px;
+        width: 185px;
     }
     .btn-talk{
-        top: 470px;
-    }
-    .top-child p{
-        top: 400px;
+        top: 316px;
+        left: 12px;
         font-size: 10px;
+    }
+    .btn-portfolio{
+        top: 316px;
+        left: 98px;
+        font-size: 10px;
+    }
+    .social-icons{
+        position: absolute;
+        top: 380px;
+        width: 229px;
+        font-size: 13px;
+        left: 10px;
+
+    }
+
+    .logo{
+        width: 70px;
     }
  
   }
