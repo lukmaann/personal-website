@@ -1,167 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap");
 
-  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap');
-
-
-.logo{
-    width: 8vw;
+.logo {
+  width: 8vw;
 }
 
-nav li{
-    font-size: 10px ;
-    font-weight: bolder;
+nav li {
+  font-size: 10px;
+  font-weight: bolder;
 }
 
-nav li:hover{
-    text-decoration: underline;
+nav li:hover {
+  text-decoration: underline;
 }
 
-*{
-    font-family: 'Roboto', sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
 
-.top{
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    padding-top: 100px;
-    justify: center;
-    align-items: center;
+.top {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  justify: center;
+  align-items: center;
 }
 
-.top-child{
-    /* display: flex; */
-    
-    height: 80vh;
-    width: 80vw;
-    padding: 30px;
-    margin: 40px;
-    /* border: 2px solid black;
+.top-child {
+  /* display: flex; */
+
+  height: 80vh;
+  width: 80vw;
+  padding: 30px;
+  margin: 40px;
+  /* border: 2px solid black;
     background-color: antiquewhite; */
 }
 
-.top-child h1{
-    width: 187.5px;
-    position: absolute;
-    top: 187.5px;
-    left: 125px;
-    font-size: 45px;
-    
-    
+.top-child h1 {
+  width: 187.5px;
+  position: absolute;
+  top: 187.5px;
+  left: 125px;
+  font-size: 45px;
 }
-.top-child h6{
-    color: plum;
-    font-family: 'Poppins', sans-serif;
-    font-size: 12.5px;
-    position: absolute;
-    top: 175px;
-    transform: rotate(-45deg);
-    left: 100px;
-
-
+.top-child h6 {
+  color: plum;
+  font-family: "Poppins", sans-serif;
+  font-size: 12.5px;
+  position: absolute;
+  top: 175px;
+  transform: rotate(-45deg);
+  left: 100px;
 }
 
 .top-child p {
+  color: grey;
+  font-size: 12.5px;
+  position: absolute;
+  top: 375px;
+  left: 187px;
+  width: 313px;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn-talk {
+  background-color: rgb(165, 105, 222);
+  border: 0;
+  font-size: small;
+  padding: 12px;
+  position: absolute;
+  top: 468px;
+}
+.btn-portfolio {
+  font-size: small;
+  border: 0;
+  padding: 10px;
+  position: absolute;
+  top: 468px;
+  left: 200px;
+  background-color: white;
+}
+.arr-icon {
+  transform: rotate(-45deg);
+}
+.social-icons {
+  position: fixed;
+  bottom: 10px;
+  left: 70px;
+  font-size: 12.5px;
+  font-family: "Poppins", sans-serif;
+}
+
+.social-icons a {
+  padding: 12.5px;
+  font-size: 19px;
+  color: black;
+}
+
+
+.top-logo{
+    width: 25vw;
     
-    color: grey;
-    font-size: 12.5px;
-    position: absolute;
-    top: 375px;
-    left: 187px;
-    width: 313px;
-    font-family: 'Poppins', sans-serif;
 }
-
-.btn-talk{
-    background-color: rgb(165, 105, 222);
-    border: 0;
-    font-size: small;
-    padding: 12px;
-    position: absolute;
-    top: 468px;
-}
-.btn-portfolio{
-    font-size: small;
-    border: 0;
-    padding: 10px;
-    position: absolute;
-    top: 468px;
-    left: 200px;
-    background-color: white;
-}
-.arr-icon{
-    transform: rotate(-45deg);
-
-}
-.social-icons{
-    position: fixed;
-    bottom: 10px;
-    left: 70px;
-    font-size: 12.5px;
-    font-family: 'Poppins', sans-serif;
-
-}
-
-.social-icons a{
-    padding: 12.5px;
-    font-size: 19px;
-    color: black;
-}
-
-
-
-
 
 @media only screen and (max-width: 600px) {
-    .top{
-        flex-wrap: wrap;
-        width: 90vw;
-        justify-content: center;
-        margin: auto;
-    }
-    .top-child{
-        /* background-color: aqua; */
-        height: 40vh;
-        width: 90vw;
-        margin: 10px;
-
-    }
-    .top-child h6{
-        left: 10px;
-        top: 100px;
-    }
-    .top-child h1{
-        left: 34px;
-        font-size: 32px;
-        top: 110px;
-    }
-
-    .top-child p{
-        top: 250px;
-        left: 31px;
-        font-size: 10px;
-        width: 185px;
-    }
-    .btn-talk{
-        top: 316px;
-        left: 12px;
-        font-size: 10px;
-    }
-    .btn-portfolio{
-        top: 316px;
-        left: 98px;
-        font-size: 10px;
-    }
-    .social-icons{
-        position: absolute;
-        top: 380px;
-        width: 229px;
-        font-size: 13px;
-        left: 10px;
-
-    }
-
-    .logo{
-        width: 70px;
-    }
- 
+  .top {
+    flex-wrap: wrap;
+    width: 90vw;
+    justify-content: center;
+    margin: auto;
   }
+  .top-child {
+    /* background-color: aqua; */
+    height: 50vh;
+    width: 90vw;
+    margin: 10px;
+  }
+  .top-child h6 {
+    left: 10px;
+    top: 100px;
+  }
+  .top-child h1 {
+    left: 34px;
+    font-size: 49px;
+    top: 110px;
+  }
+
+  .top-child p {
+    top: 297px;
+    left: 66px;
+    font-size: 13px;
+    width: 240px;
+  }
+  .btn-talk {
+    top: 416px;
+    left: 12px;
+    font-size: 10px;
+  }
+  .btn-portfolio {
+    top: 416px;
+    left: 98px;
+    font-size: 10px;
+  }
+  .social-icons {
+    position: absolute;
+    top: 476px;
+    width: 229px;
+    font-size: 13px;
+    left: 10px;
+  }
+
+  .logo {
+    width: 70px;
+  }
+  .top-logo{
+    width: 72vw;
+    
+}
+}
