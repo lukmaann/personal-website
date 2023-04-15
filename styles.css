@@ -1,3 +1,7 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap');
+
+
 .logo{
     width: 8vw;
 }
@@ -11,20 +15,122 @@ nav li:hover{
     text-decoration: underline;
 }
 
-.top{
-    display: flex;
+*{
+    font-family: 'Roboto', sans-serif;
 }
 
-.home-img{
-    background-color: aqua;
-    flex: 1;
-    height: 90vh;
-    width: 50vw;
-}
-.home-title{
-    background-color: bisque;
-    width: 50vw;
+.top{
+    height: 100vh;
+    width: 100%;
     display: flex;
-    justify-content: center;
     padding-top: 100px;
+    justify: center;
+    align-items: center;
 }
+
+.top-child{
+    /* display: flex; */
+    
+    height: 80vh;
+    width: 80vw;
+    padding: 30px;
+    margin: 40px;
+    /* border: 2px solid black;
+    background-color: antiquewhite; */
+}
+
+.top-child h1{
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    
+    
+}
+.top-child h6{
+    color: plum;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    position: absolute;
+    top: 140px;
+    transform: rotate(-45deg);
+    left: 80px;
+
+
+}
+
+.top-child p{
+    
+    color: grey;
+    font-size: 10px;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-talk{
+    background-color: rgb(165, 105, 222);
+    border: 0;
+    font-size: small;
+    padding: 10px;
+    position: absolute;
+    top: 375px;
+}
+.btn-portfolio{
+    font-size: small;
+    border: 0;
+    padding: 10px;
+    position: absolute;
+    top: 375px;
+    left: 160px;
+    background-color: white;
+}
+.arr-icon{
+    transform: rotate(-45deg);
+
+}
+.social-icons{
+    position: fixed;
+    bottom: 10px;
+    left: 70px;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.social-icons a{
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .top{
+        flex-wrap: wrap;
+    }
+    .top-child{
+        height: 60vh;
+        width: 100vh;
+        margin: 10px;
+    }
+    .top-child h1{
+        font-size: 50px;
+    }
+    .btn-portfolio{
+        top: 470px;
+    }
+    .btn-talk{
+        top: 470px;
+    }
+    .top-child p{
+        top: 400px;
+        font-size: 10px;
+    }
+ 
+  }
