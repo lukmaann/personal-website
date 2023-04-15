@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@100;500&display=swap");
 
+
+/* ***************************************top-div************************************ */
 .logo {
   width: 8vw;
 }
@@ -103,6 +105,69 @@ nav li:hover {
     width: 25vw;
     
 }
+
+/* ********************************mid-div********************************* */
+
+.mid{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  padding-top: 100px;
+  justify: center;
+  align-items: center;
+  background-color: #F7D060;
+}
+
+.mid-child{
+  height: 80vh;
+  width: 80vw;
+  padding: 30px;
+  margin: 40px;
+  /* background-color: aqua; */
+ 
+
+}
+
+.mid-h6{
+  color: plum;
+  font-family: "Poppins", sans-serif;
+  font-size: 12.5px;
+  position: absolute;
+  top: 740px;
+  transform: rotate(-45deg);
+  left: 90px;
+
+}
+
+.mid-p{
+  color: grey;
+  font-size: 12.5px;
+  position: absolute;
+  top: 870px;
+  left: 187px;
+  width: 313px;
+  font-family: "Poppins", sans-serif;
+
+}
+ 
+
+.mid-h1{
+  width: 187.5px;
+  position: absolute;
+  top: 755px;
+  left: 125px;
+  font-size: 45px;
+
+}
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 600px) {
   .top {
