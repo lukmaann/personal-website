@@ -298,7 +298,10 @@ nav li:hover {
   
 }
 .social-icons{
-  display: none;
+  transform: rotate(90deg);
+    position: fixed;
+    right: 128px;
+    top: 348px;
 }
 .mid-child {
   
@@ -358,4 +361,4 @@ nav li:hover {
 }
 }
 
-}
+
